@@ -17,7 +17,7 @@ Saya pun mengalami hal yang sama. Sampai akhirnya saya menemukan solusi yang ele
 
 Baru saja saya berhasil menyiapkannya dan hasilnya luar biasa. Blog post ini akan menceritakan pengalaman saya dan mengapa Anda harus mempertimbangkan untuk beralih.
 
-#### **Apa Itu Cloudflare Tunnel? **
+#### Apa Itu Cloudflare Tunnel?
 
 Bayangkan Anda memiliki harta karun (service Anda) di dalam kastil (router/jaringan rumah Anda). Port forwarding itu seperti membuka pintu belakang kastil dan berharap tidak ada penjahat yang masuk. VPN seperti membangun jembatan rahasia ke kastil, tapi hanya untuk orang-orang yang punya kunci khusus (klien VPN).
 
