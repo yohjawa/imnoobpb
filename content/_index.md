@@ -16,11 +16,6 @@ Blog ini bukan cuma tentang perjalanan pribadi saya, tapi juga undangan untuk ka
 
 Jadi, ayo kita mulai petualangan seru ini bersama-sama! Ikuti saya saat kita menelusuri lika-liku kurva belajar, menari-nari kegirangan karena kemajuan (sekecil apa pun itu!), dan membangun komunitas suportif yang mendorong kita semua untuk mengambil langkah berani menuju passion kita.
 
-Coba deh lihat ini :
-
-% KaTeX inline notation
-Inline notation: \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
-
 Terima kasih sudah mampir, dan saya tidak sabar untuk berbagi perjalanan yang luar biasa ini dengan kalian!
 
 
