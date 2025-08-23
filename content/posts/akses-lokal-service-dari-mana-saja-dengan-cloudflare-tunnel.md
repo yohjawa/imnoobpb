@@ -9,9 +9,6 @@ cascade:
 ---
 
 ### **Akses Service Lokal dari Mana Saja dengan Aman? Gunakan Cloudflare Tunnel!**
-
-**Katakan Selamat Tinggal pada Port Forwarding yang Berisiko dan Konfigurasi VPN yang Rumit.**
-
 ----------
 
 Apakah Anda pernah ingin mengakses server media, dashboard Home Assistant, atau website development yang berjalan di Raspberry Pi atau server rumah Anda, tetapi dari luar jaringan? Selama ini, solusinya selalu  **port forwarding**  yang membutuhkan alamat IP publik sementara kebanyakan provider internet akhir-akhir ini (setidaknya di daerah rumah saya) hanya mengalokasikan private ip address sehingg hal ini tidak memungkinkan. Selain itu port forwarding juga penuh dengan risiko keamanan atau setup  **VPN**  yang bisa dibilang... agak ribet untuk teman atau keluarga yang kurang tech-savvy.
