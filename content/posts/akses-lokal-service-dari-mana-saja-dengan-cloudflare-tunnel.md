@@ -2,6 +2,10 @@
 title: "Akses Service Lokal dari Mana Saja dengan Aman? Gunakan Cloudflare Tunnel!"
 date: 2020-03-22T04:54:06+08:00
 draft: false
+cascade:
+  showEdit: false
+  showSummary: true
+  showComment: true
 ---
 
 ### **Akses Service Lokal dari Mana Saja dengan Aman? Gunakan Cloudflare Tunnel!**
