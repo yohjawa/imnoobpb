@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "ImNoob - Proudly clueless, constantly learning"
 description: "short introduction"
 layout: "simple"
 cascade:
