@@ -6,15 +6,21 @@ cascade:
   showEdit: false
   showSummary: true
 ---
+Halo, para petualang, pembelajar, dan orang-orang yang antusias! Saya sangat senang menyambut kalian di sudut sederhana internet milik saya, tempat saya akan berbagi perjalanan saya sebagai pemula yang semangat di berbagai bidang. Blog Pribadi ImNoob adalah tempat di mana saya mendokumentasikan pengalaman, tantangan, dan penemuan-penemuan saya saat saya terjun headfirst ke dalam lautan pengetahuan yang luas.
 
-Hello, fellow adventurers, learners, and enthusiasts! I'm thrilled to welcome you to my humble corner of the internet, where I'll be sharing my journey as an enthusiastic beginner in various domains. ImNoob's Personal Blog is a place where I document my experiences, challenges, and discoveries as I dive headfirst into the vast realms of knowledge.
+Di sini, kalian akan menemukan kumpulan artikel, renungan, dan refleksi tentang petualangan saya menaklukkan hal-hal yang tidak familiar. Entah itu menyelami kedalaman coding, menjelajahi seluk-beluk seni dan desain, atau petualangan seru di dunia fotografi, saya di sini untuk berbagi kemenangan, kegagalan, dan semua yang ada di antaranya.
 
-Here, you'll find a collection of articles, musings, and reflections on my quest to conquer the unfamiliar. Whether it's delving into the depths of coding, exploring the intricacies of art and design, or venturing into the wonders of photography, I'm here to share my triumphs, failures, and everything in between.
+Tapi jangan tertipu oleh namanya! Walaupun saya mengaku sebagai "noob", saya yakin banget bahwa ada nilai luar biasa dalam merangkul mentalitas pemula. Soalnya, kan, di langkah-langkah pertama yang sempoyongan itulah kita meletakkan fondasi untuk tumbuh dan berubah. Jadi, ayo bersama-sama kita rayakan petualangan belajar, puja-puji keindahan dalam ketidaksempurnaan, dan nikmati keseruan dari setiap penemuan baru!
 
-But don't let the name fool you! While I may be a self-proclaimed "noob," I firmly believe that there is immense value in embracing our beginner's mindset. After all, it's in those initial stumbling steps that we lay the foundation for growth and transformation. So, together, let's embrace the adventure of learning, celebrate the beauty of imperfection, and relish the excitement of each new discovery.
+Blog ini bukan cuma tentang perjalanan pribadi saya, tapi juga undangan untuk kalian semua buat gabung dalam eksplorasi ini. Mau kalian sudah jago, masih hijau, atau di tengah-tengah, saya harap bisa menciptakan ruang yang menginspirasi, mengedukasi, dan memicu obrolan-obrolan seru.
 
-This blog is not just about my personal journey but also an invitation for you to join me on this path of exploration. Whether you're a seasoned expert, a curious learner, or somewhere in between, I hope to create a space that inspires, educates, and sparks meaningful conversations.
+Jadi, ayo kita mulai petualangan seru ini bersama-sama! Ikuti saya saat kita menelusuri lika-liku kurva belajar, menari-nari kegirangan karena kemajuan (sekecil apa pun itu!), dan membangun komunitas suportif yang mendorong kita semua untuk mengambil langkah berani menuju passion kita.
 
-So, let's embark on this exciting adventure together! Join me as we navigate the twists and turns of the learning curve, celebrate the joy of progress, and build a supportive community that encourages us all to take bold steps towards our passions.
+Coba deh lihat ini :
 
-Thank you for being here, and I can't wait to share this incredible journey with you!
+% KaTeX inline notation
+Inline notation: \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
+
+Terima kasih sudah mampir, dan saya tidak sabar untuk berbagi perjalanan yang luar biasa ini dengan kalian!
+
+
