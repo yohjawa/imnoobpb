@@ -2,7 +2,12 @@
 title: "Hello World"
 date: 2020-03-21T04:54:06+08:00
 draft: false
+categories: ngasal
+showAuthor: true
+showDate: true
 ---
+
+----------
 Hello World!!
 Some sample
 

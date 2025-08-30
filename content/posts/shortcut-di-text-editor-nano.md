@@ -3,7 +3,14 @@ title: "Shortcut-Shortcut di text editor Nano"
 date: 2020-04-04T16:36:06+08:00
 draft: false
 categories: ngasal
+showAuthor: true
+showDate: true
+cascade:
+  showEdit: false
+  showSummary: true
 ---
+
+----------
 Nano ini apaan sih?
 
 Yang saya maksud Nano disini itu salah satu text editor yang biasanya ada di system operasi linux.

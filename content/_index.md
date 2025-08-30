@@ -6,6 +6,8 @@ cascade:
   showEdit: false
   showSummary: true
 ---
+
+----------
 Halo, para petualang, pembelajar, dan orang-orang yang antusias! Saya sangat senang menyambut kalian di sudut sederhana internet milik saya, tempat saya akan berbagi perjalanan saya sebagai pemula yang semangat di berbagai bidang. Blog Pribadi ImNoob adalah tempat di mana saya mendokumentasikan pengalaman, tantangan, dan penemuan-penemuan saya saat saya terjun headfirst ke dalam lautan pengetahuan yang luas.
 
 Di sini, kalian akan menemukan kumpulan artikel, renungan, dan refleksi tentang petualangan saya menaklukkan hal-hal yang tidak familiar. Entah itu menyelami kedalaman coding, menjelajahi seluk-beluk seni dan desain, atau petualangan seru di dunia fotografi, saya di sini untuk berbagi kemenangan, kegagalan, dan semua yang ada di antaranya.

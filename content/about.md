@@ -6,6 +6,8 @@ cascade:
   showEdit: false
   showSummary: true
 ---
+
+----------
 Jadi blog saya ini cuma buat belajar.
 Termasuk belajar nulis semua tulisan yang ada disini.
 Namanya baru belajar yah pasti banyak kurangnya disana-sini.
