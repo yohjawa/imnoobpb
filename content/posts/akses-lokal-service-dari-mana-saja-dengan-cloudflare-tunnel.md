@@ -69,7 +69,7 @@ Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa
     [Service]
     TimeoutStartSec=0
     Type=notify
-    ExecStart=/usr/bin/cloudflared --no-autoupdate **--config /etc/cloudflared/config.yml** tunnel run
+    ExecStart=/usr/bin/cloudflared --no-autoupdate --config /etc/cloudflared/config.yml tunnel run
     Restart=on-failure
     RestartSec=5s
 
