@@ -5,6 +5,8 @@ draft: false
 categories: ngasal
 showAuthor: true
 showDate: true
+sharingLinks: true
+showTableOfContents: true
 cascade:
   showEdit: false
   showSummary: true

@@ -5,6 +5,7 @@ draft: false
 categories: "Zero Trust"
 showAuthor: true
 showDate: true
+sharingLinks: true
 cascade:
   showEdit: false
   showSummary: true
