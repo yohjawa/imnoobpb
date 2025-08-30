@@ -10,7 +10,6 @@ cascade:
   showComment: true
 ---
 
-### **Akses jaringan rumah dari mana saja pake Cloudflare tunnel!**
 ----------
 
 Jadi ceritanya saya punya beberapa aplikasi yang saya pasang di laptop maupun raspberry pi di rumah yang pengen bisa saya akses dari mana saja. Dulu  pas awal-awal langganan internet sih dari provider dapat ip public meskipun bukan ip static yah. Jadi pas dapat itu saya bisa pake feature **port forwarding** di routernya provider buat ngeforward port-port tertentu ke aplikasi saya di rumah.
