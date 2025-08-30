@@ -84,10 +84,10 @@ Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa
     Perintah yang kedua buat nampilin nama tunnel cloudflare sama ID nya. Catat tunnel ID ini, ini nanti dipake buat arahin domain/subdomain ke cloudflare tunnelnya.
 
 5.  Sekarang pergi ke [cloudflare dashboard] (https://dash.cloudflare.com/) untuk buat DNS record baru yang diarahin ke cloudflare tunnel. Isiannya kurang lebih gini :
-    a. Type : CNAME
-    b. Name : owndrive
-    c. Target : tunnelid.cfargotunnel.com (sesuaikan tunnelid dengan yang udah dicatat sebelumnya)
-    d. Proxy status : Proxied
+    1. Type : CNAME
+    2. Name : owndrive
+    3. Target : tunnelid.cfargotunnel.com (sesuaikan tunnelid dengan yang udah dicatat sebelumnya)
+    4. Proxy status : Proxied
 6.  Udah, gitu aja. tunggu beberapa saat trus coba deh akses alamat https://owndrive.imnoob.net (atau alamat lain sesuai config tadi) harusnya udah bisa muncul aplikasinya.
 
 ----------
