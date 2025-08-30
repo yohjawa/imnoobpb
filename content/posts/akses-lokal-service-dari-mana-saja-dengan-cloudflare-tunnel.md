@@ -1,15 +1,13 @@
 ---
 title: "Akses jaringan rumah dari mana saja pake cloudflare tunnel."
 date: 2020-03-22T04:54:06+08:00
-layout: "simple"
-categories: "Zero Trust"
 draft: false
+categories: "Zero Trust"
 showAuthor: true
 showDate: true
 cascade:
   showEdit: false
   showSummary: true
-  showComment: true
 ---
 
 ----------

@@ -5,6 +5,9 @@ draft: false
 categories: ngasal
 showAuthor: true
 showDate: true
+cascade:
+  showEdit: false
+  showSummary: true
 ---
 
 ----------
