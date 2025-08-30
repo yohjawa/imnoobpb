@@ -13,9 +13,13 @@ cascade:
 
 ----------
 
+## Latar Belakang
+
 Jadi ceritanya saya punya beberapa aplikasi yang saya pasang di laptop maupun raspberry pi di rumah yang pengen bisa saya akses dari mana saja. Dulu  pas awal-awal langganan internet sih dari provider dapat ip public meskipun bukan ip static yah. Jadi pas dapat itu saya bisa pake feature **port forwarding** di routernya provider buat ngeforward port-port tertentu ke aplikasi saya di rumah.
 
 Belakangan pas ngecek di router kok gak pernah dapat ip public lagi, pantesan port forwardingnya gak pernah jalan lagi. Akhirnya raspberry pi nya aku matiin sampe lama karna saya pikir percuma juga dinyalain terus tapi gak bisa di akses dari rumah.
+
+## Persiapan Awal
 
 Sampe satu hari dapat info dari satu blognya orang apa dari youtube channel gitu (lupa sih pastinya), kalau cloudflare itu punya service yang bisa buat expose aplikasi di rumah ke internet biar bisa di akses dari mana aja di internet. Saya pikir, menarik juga nih :D. Mulai bongkar sana-sini cari lagi raspi ku yang dulu dimatiin, udah lupa kan dimana simpennya sampe omelin istri segala kirain dia udah buang ke tempat sampah. 
 
@@ -26,7 +30,11 @@ Intinya setelah raspberry pinya jalan, dua aplikasi pertama yang aku install dis
 
 Lanjut aplikasi owncloudnya mau saya buat biar bisa akses dari mana aja, soalnya kadang ada file yang aku buat di laptop pengen akses dari mana aja, mau taro di google drive tapi di jaringan  kantor google drivenya di blok. Buat bisa kayak gini aku pake cloudlare tunnel deh, dokumentasinya lengkap banget lah, kalau mau baca langsung ke websitenya bisa klik link ini : 
 
-Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa mulai dari [sini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Biar dokumentasi udah lengkap tapi saya mau tulis disini lagi apa-apa aja sih yang saya buat sampe berhasil aplikasi owncloudnya bisa akses dari mana aja. Intinya tuh gini :
+## Mengenal Cloudflare Tunnel
+
+Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa mulai dari [sini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Biar dokumentasi udah lengkap tapi saya mau tulis disini lagi apa-apa aja sih yang saya buat sampe berhasil aplikasi owncloudnya bisa akses dari mana aja. 
+
+## Langkah-langkah implementasi Cloudlare Tunnel
 
 1.  Mesti punya nama domain dulu, trus name servernya di arahin ke cloudflare, kebetulan saya udah punya dan udah arahin name servernya ke cloudflare juga, jadi saya gak ceritain disini.
 2.  Instal  `cloudflared`  di raspberry pi, pake command di bawah ini aja. (Ini sebenarnya bisa dilakukan dari dashboard cloudflare sih cuma saya nyaman aja pake command line jadi saya buat gini deh )
@@ -91,6 +99,9 @@ Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa
 6.  Udah, gitu aja. tunggu beberapa saat trus coba deh akses alamat https://owndrive.imnoob.net (atau alamat lain sesuai config tadi) harusnya udah bisa muncul aplikasinya.
 
 ----------
+
+## Penutup
+
 Pokoknya pake cloudflare tunnel ini cukup puas lah, beberapa poin plus menurutku :
 - Bisa akses aplikasi di jaringan rumah dari internet
 - Gak perlu beli hosting yang mahal hanya untuk nge-host aplikasi-aplikasi kecil buatan sendiri 
