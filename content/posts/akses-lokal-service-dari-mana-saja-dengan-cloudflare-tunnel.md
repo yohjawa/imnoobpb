@@ -25,7 +25,7 @@ Intinya setelah raspberry pinya jalan, dua aplikasi pertama yang aku install dis
 
 Lanjut aplikasi owncloudnya mau saya buat biar bisa akses dari mana aja, soalnya kadang ada file yang aku buat di laptop pengen akses dari mana aja, mau taro di google drive tapi di jaringan  kantor google drivenya di blok. Buat bisa kayak gini aku pake cloudlare tunnel deh, dokumentasinya lengkap banget lah, kalau mau baca langsung ke websitenya bisa klik link ini : 
 
-Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa mulai dari [sini] (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Biar dokumentasi udah lengkap tapi saya mau tulis disini lagi apa-apa aja sih yang saya buat sampe berhasil aplikasi owncloudnya bisa akses dari mana aja. Intinya tuh gini :
+Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa mulai dari [sini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Biar dokumentasi udah lengkap tapi saya mau tulis disini lagi apa-apa aja sih yang saya buat sampe berhasil aplikasi owncloudnya bisa akses dari mana aja. Intinya tuh gini :
 
 1.  Mesti punya nama domain dulu, trus name servernya di arahin ke cloudflare, kebetulan saya udah punya dan udah arahin name servernya ke cloudflare juga, jadi saya gak ceritain disini.
 2.  Instal  `cloudflared`  di raspberry pi, pake command di bawah ini aja. (Ini sebenarnya bisa dilakukan dari dashboard cloudflare sih cuma saya nyaman aja pake command line jadi saya buat gini deh )
@@ -82,7 +82,7 @@ Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa
     ```
     Perintah yang kedua buat nampilin nama tunnel cloudflare sama ID nya. Catat tunnel ID ini, ini nanti dipake buat arahin domain/subdomain ke cloudflare tunnelnya.
 
-5.  Sekarang pergi ke [cloudflare dashboard] (https://dash.cloudflare.com/) untuk buat DNS record baru yang diarahin ke cloudflare tunnel. Isiannya kurang lebih gini :
+5.  Sekarang pergi ke [cloudflare dashboard](https://dash.cloudflare.com/) untuk buat DNS record baru yang diarahin ke cloudflare tunnel. Isiannya kurang lebih gini :
     - Type : CNAME
     - Name : owndrive
     - Target : tunnelid.cfargotunnel.com (sesuaikan tunnelid dengan yang udah dicatat sebelumnya)
