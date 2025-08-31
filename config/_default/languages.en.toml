@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "ImNoob - Proudly Clueless, Constantly learning!"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "2 January 2006"

@@ -9,7 +9,7 @@ colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
-defaultThemeColor = "#FFFFFF"
+#defaultThemeColor = "#FFFFFF"
 
 enableSearch = false
 enableCodeCopy = false
@@ -32,7 +32,7 @@ fingerprintAlgorithm = "sha256"
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
+  layout = "custom" # valid options: page, profile, custom
   showRecent = false
   recentLimit = 5
 
@@ -42,23 +42,23 @@ fingerprintAlgorithm = "sha256"
   showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = true
+  editURL = "https://github.com/yohja/imnoobpb/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showWordCount = false
-  showComments = false
+  showComments = true
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   groupByYear = true
   paginationWidth = 1
@@ -73,7 +73,7 @@ fingerprintAlgorithm = "sha256"
   # site = "ABC12345"
 
 [plausibleAnalytics]
-  # domain = "blog.yoursite.com"
+  domain = "blog.imnoob.net"
   # event = ""
   # script = ""
 
