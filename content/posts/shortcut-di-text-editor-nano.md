@@ -1,15 +1,15 @@
 ---
-title: "Shortcut-Shortcut di text editor Nano"
+title: Shortcut-Shortcut di text editor Nano
 date: 2020-04-04T16:36:06+08:00
 draft: false
 categories: ngasal
 showAuthor: true
 showDate: true
-sharingLinks: true
 showTableOfContents: true
 cascade:
   showEdit: false
   showSummary: true
+slug: shortcut-shortcut-di-text-editor-nano
 ---
 
 ----------

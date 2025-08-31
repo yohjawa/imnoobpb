@@ -1,0 +1,660 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Akses jaringan rumah dari mana saja pake cloudflare tunnel. &middot; ImNoob - Proudly Clueless, Constantly learning!</title>
+    <meta name="title" content="Akses jaringan rumah dari mana saja pake cloudflare tunnel. &middot; ImNoob - Proudly Clueless, Constantly learning!" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="//localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="//localhost:1313/css/main.bundle.min.0fc2ef930d53c70c53effb01f12118005a26719d9223a1599730c1d26ee3f132.css"
+    integrity="sha256-D8Lvkw1TxwxT7/sB8SEYAFomcZ2SI6FZlzDB0m7j8TI="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="//localhost:1313/posts/akses-jaringan-rumah-dari-mana-saja-pake-cloudflare-tunnel/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="//localhost:1313/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png" />
+    <link rel="manifest" href="//localhost:1313/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="//localhost:1313/posts/akses-jaringan-rumah-dari-mana-saja-pake-cloudflare-tunnel/">
+  <meta property="og:site_name" content="ImNoob - Proudly Clueless, Constantly learning!">
+  <meta property="og:title" content="Akses jaringan rumah dari mana saja pake cloudflare tunnel.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-03-22T04:54:06+08:00">
+    <meta property="article:modified_time" content="2020-03-22T04:54:06+08:00">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Akses jaringan rumah dari mana saja pake cloudflare tunnel.">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Akses jaringan rumah dari mana saja pake cloudflare tunnel.",
+    "headline": "Akses jaringan rumah dari mana saja pake cloudflare tunnel.",
+    
+    
+    "inLanguage": "en",
+    "url" : "\/\/localhost:1313\/posts\/akses-jaringan-rumah-dari-mana-saja-pake-cloudflare-tunnel\/",
+    "author" : {
+      "@type": "Person",
+      "name": "ImNoob"
+    },
+    "copyrightYear": "2020",
+    "dateCreated": "2020-03-22T04:54:06\u002b08:00",
+    "datePublished": "2020-03-22T04:54:06\u002b08:00",
+    
+    "dateModified": "2020-03-22T04:54:06\u002b08:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "927"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "//localhost:1313/",
+       "name": "Im Noob Proudly Clueless, Constantly Learning",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "//localhost:1313/posts/",
+       "name": "Posts",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "//localhost:1313/categories/zero-trust/",
+       "name": "Zero Trust",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Akses Jaringan Rumah Dari Mana Saja Pake Cloudflare Tunnel.",
+       "position": 4
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="ImNoob" />
+  
+  
+    
+      <link href="mailto:me@imnoob.net" rel="me" />
+    
+      <link href="https://blog.imnoob.net/" rel="me" />
+    
+      <link href="https://linkedin.com/in/yohjawa" rel="me" />
+    
+      <link href="https://wa.me/6285186817719" rel="me" />
+    
+      <link href="https://twitter.com/yohjawa" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="//localhost:1313/" class="mr-2">
+      
+      <img
+        src="//localhost:1313/img/dark-logo.png"
+        width="197"
+        height="81"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="ImNoob - Proudly Clueless, Constantly learning!"
+      />
+    </a>
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="//localhost:1313/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="//localhost:1313/about/"
+                  title="About"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="//localhost:1313/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="//localhost:1313/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Akses jaringan rumah dari mana saja pake cloudflare tunnel.
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2020-03-22 04:54:06 &#43;0800 &#43;08">22 March 2020</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <hr>
+<h2 id="latar-belakang" class="relative group">Latar Belakang <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#latar-belakang" aria-label="Anchor">#</a></span></h2><p>Jadi ceritanya saya punya beberapa aplikasi yang saya pasang di laptop maupun raspberry pi di rumah yang pengen bisa saya akses dari mana saja. Dulu  pas awal-awal langganan internet sih dari provider dapat ip public meskipun bukan ip static yah. Jadi pas dapat itu saya bisa pake feature <strong>port forwarding</strong> di routernya provider buat ngeforward port-port tertentu ke aplikasi saya di rumah.</p>
+<p>Belakangan pas ngecek di router kok gak pernah dapat ip public lagi, pantesan port forwardingnya gak pernah jalan lagi. Akhirnya raspberry pi nya aku matiin sampe lama karna saya pikir percuma juga dinyalain terus tapi gak bisa di akses dari rumah.</p>
+<h2 id="persiapan-awal" class="relative group">Persiapan Awal <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#persiapan-awal" aria-label="Anchor">#</a></span></h2><p>Sampe satu hari dapat info dari satu blognya orang apa dari youtube channel gitu (lupa sih pastinya), kalau cloudflare itu punya service yang bisa buat expose aplikasi di rumah ke internet biar bisa di akses dari mana aja di internet. Saya pikir, menarik juga nih :D. Mulai bongkar sana-sini cari lagi raspi ku yang dulu dimatiin, udah lupa kan dimana simpennya sampe omelin istri segala kirain dia udah buang ke tempat sampah.</p>
+<p>Pas udah nemu kayaknya masih nyala sih tapi lupa username sama password buat remotenya dulu.
+Mau install ulang, gak punya monitor. Gak punya card reader juga, akhirnya ambil jalan ninja, buka toko oren buat pesen card reader, sekalian beli sd card baru juga sih, soalnya was-was kalau sd card yang ada siapa tau udah rusak. Buat setup awalnya aku pake raspberry pi imager aja sih, nanti lain kali kalau sempat aku bikin tulisannya juga deh.</p>
+<p>Intinya setelah raspberry pinya jalan, dua aplikasi pertama yang aku install disini tuh pertama pi-hole sama aplikasi owncloud. Detailnya bisa di lihat di website masing-masing atau cari aja di google, tapi singkatnya aplikasi pi-hole ini tuh buat jadi DNS server apa forwarder sekaligus add blocker buat ngeblok iklan-iklan yang nyebelin dari website yang dikunjungin, meskipun gak semua keblokir juga sih. Trus aplikasi owncloud tuh kayak google drive gitu cuma simpennya yah di tempat penyimpanan aku sendiri. Dua aplikasi ini aku jalanin di atas docker container, dan dua-duanya sudah bisa aku akses dari hp/laptop yang ada di rumah.</p>
+<p>Lanjut aplikasi owncloudnya mau saya buat biar bisa akses dari mana aja, soalnya kadang ada file yang aku buat di laptop pengen akses dari mana aja, mau taro di google drive tapi di jaringan  kantor google drivenya di blok. Buat bisa kayak gini aku pake cloudlare tunnel deh, dokumentasinya lengkap banget lah, kalau mau baca langsung ke websitenya bisa klik link ini :</p>
+<h2 id="mengenal-cloudflare-tunnel" class="relative group">Mengenal Cloudflare Tunnel <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mengenal-cloudflare-tunnel" aria-label="Anchor">#</a></span></h2><p>Cloudflare memiliki dokumentasi yang sangat lengkap dan mudah diikuti. Anda bisa mulai dari <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/" target="_blank" rel="noreferrer">sini</a>. Biar dokumentasi udah lengkap tapi saya mau tulis disini lagi apa-apa aja sih yang saya buat sampe berhasil aplikasi owncloudnya bisa akses dari mana aja.</p>
+<h2 id="langkah-langkah-implementasi-cloudlare-tunnel" class="relative group">Langkah-langkah implementasi Cloudlare Tunnel <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#langkah-langkah-implementasi-cloudlare-tunnel" aria-label="Anchor">#</a></span></h2><ol>
+<li>
+<p>Mesti punya nama domain dulu, trus name servernya di arahin ke cloudflare, kebetulan saya udah punya dan udah arahin name servernya ke cloudflare juga, jadi saya gak ceritain disini.</p>
+</li>
+<li>
+<p>Instal  <code>cloudflared</code>  di raspberry pi, pake command di bawah ini aja. (Ini sebenarnya bisa dilakukan dari dashboard cloudflare sih cuma saya nyaman aja pake command line jadi saya buat gini deh )</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo apt update
+</span></span><span class="line"><span class="cl">$ sudo mkdir -p --mode<span class="o">=</span><span class="m">0755</span> /usr/share/keyrings
+</span></span><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared bookworm main&#39;</span> <span class="p">|</span> sudo tee /etc/apt/sources.list.d/cloudflared.list
+</span></span><span class="line"><span class="cl">$ sudo apt updat <span class="o">&amp;&amp;</span> sudo apt install cloudflared -y
+</span></span><span class="line"><span class="cl">$ cloudflared tunnel login
+</span></span></code></pre></div></li>
+<li>
+<p>Buat file config untuk cloudflare tunnelnya pake perintah ini :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo mkdir /etc/cloudflare
+</span></span><span class="line"><span class="cl">$ sudo nano /etc/cloudflare/config.yml
+</span></span></code></pre></div><p>Isi file config cloudflare saya kurang lebih kayak gini :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tunnel: ImNoob_CF_Tunnel
+</span></span><span class="line"><span class="cl">credentials-file: /home/imnoob/.cloudflared/cloudflare/credfile.json
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ingres:
+</span></span><span class="line"><span class="cl">  - hostname: owndrive.imnoob.net
+</span></span><span class="line"><span class="cl">    service: http://localhost:8082
+</span></span><span class="line"><span class="cl">  - service: http_status: <span class="m">404</span>
+</span></span></code></pre></div><p>Sedikit penjelasan mengenai isi config filenya :</p>
+<ul>
+<li>tunnel : Ini saya isi dengan nama tunnelnya, nanti akan kedetect di cloudflare dashboard juga ini tunnel</li>
+<li>credentials-file : ini path ke credential file yang otomatis ke generate waktu berhasil login ke cloudflare pake pake perintah <code>cloudflared tunnel login</code> sebelumnya</li>
+<li>hostname : alamat yang nanti dipake buat akses aplikasinya dari internet</li>
+<li>service : ini saya  isi pake url dari aplikasi owncloud yang jalan di docker</li>
+<li>Kalau mau tambah aplikasi lain untuk bisa diakses dari internet juga tinggal tambahin lagi hostname dengan alamat servicenya. Alamat service ini gak harus di host yang sama dengan cloudflared, bisa service dari host lain misalnya dari cctv kah, atau yang lain, tinggal sesuaikan dengan alamatnya kalau di akses dari jaringan rumah itu kayak gimana</li>
+</ul>
+</li>
+<li>
+<p>Ubah sedikit service <code>cloudflared</code> nya biar bisa nyambung ke file config yang kita buat :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo systemctl edit --full cloudflared.service
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Unit<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Description</span><span class="o">=</span>cloudflared
+</span></span><span class="line"><span class="cl"><span class="nv">After</span><span class="o">=</span>network-online.target
+</span></span><span class="line"><span class="cl"><span class="nv">Wants</span><span class="o">=</span>network-online.target
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Service<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">TimeoutStartSec</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Type</span><span class="o">=</span>notify
+</span></span><span class="line"><span class="cl"><span class="nv">ExecStart</span><span class="o">=</span>/usr/bin/cloudflared --no-autoupdate --config /etc/cloudflared/config.yml tunnel run
+</span></span><span class="line"><span class="cl"><span class="nv">Restart</span><span class="o">=</span>on-failure
+</span></span><span class="line"><span class="cl"><span class="nv">RestartSec</span><span class="o">=</span>5s
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Install<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">WantedBy</span><span class="o">=</span>multi-user.target
+</span></span></code></pre></div><p>Cocokin aja path setelah <code>--config</code> ke path file confignya. Sudah sesuai semua langsung jalanin service cloudflarednya.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo systemctl start cloudflared
+</span></span><span class="line"><span class="cl">$ cloudflared tunnel list
+</span></span></code></pre></div><p>Perintah yang kedua buat nampilin nama tunnel cloudflare sama ID nya. Catat tunnel ID ini, ini nanti dipake buat arahin domain/subdomain ke cloudflare tunnelnya.</p>
+</li>
+<li>
+<p>Sekarang pergi ke <a href="https://dash.cloudflare.com/" target="_blank" rel="noreferrer">cloudflare dashboard</a> untuk buat DNS record baru yang diarahin ke cloudflare tunnel. Isiannya kurang lebih gini :</p>
+<ul>
+<li>Type : CNAME</li>
+<li>Name : owndrive</li>
+<li>Target : tunnelid.cfargotunnel.com (sesuaikan tunnelid dengan yang udah dicatat sebelumnya)</li>
+<li>Proxy status : Proxied</li>
+</ul>
+</li>
+<li>
+<p>Udah, gitu aja. tunggu beberapa saat trus coba deh akses alamat <a href="https://owndrive.imnoob.net" target="_blank" rel="noreferrer">https://owndrive.imnoob.net</a> (atau alamat lain sesuai config tadi) harusnya udah bisa muncul aplikasinya.</p>
+</li>
+</ol>
+<hr>
+<h2 id="penutup" class="relative group">Penutup <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#penutup" aria-label="Anchor">#</a></span></h2><p>Pokoknya pake cloudflare tunnel ini cukup puas lah, beberapa poin plus menurutku :</p>
+<ul>
+<li>Bisa akses aplikasi di jaringan rumah dari internet</li>
+<li>Gak perlu beli hosting yang mahal hanya untuk nge-host aplikasi-aplikasi kecil buatan sendiri</li>
+<li>Bisa manfaatin fitur keamanan cloudflare yang gratis kalau masih skala kecil</li>
+<li>de el el, de el el</li>
+</ul>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          ImNoob
+        </div>
+      
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="mailto:me@imnoob.net"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://blog.imnoob.net/"
+          target="_blank"
+          aria-label="Link"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://linkedin.com/in/yohjawa"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://wa.me/6285186817719"
+          target="_blank"
+          aria-label="Whatsapp"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://twitter.com/yohjawa"
+          target="_blank"
+          aria-label="X-Twitter"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="//localhost:1313/posts/world/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Hello World</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2020-03-21 04:54:06 &#43;0800 &#43;08">21 March 2020</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="//localhost:1313/posts/shortcut-shortcut-di-text-editor-nano/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Shortcut-Shortcut di text editor Nano</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2020-04-04 16:36:06 &#43;0800 &#43;08">4 April 2020</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2025
+            ImNoob
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
