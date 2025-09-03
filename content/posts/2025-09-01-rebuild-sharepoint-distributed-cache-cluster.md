@@ -4,6 +4,7 @@ description: ""
 date: 2025-09-01T06:43:05.842Z
 preview: ""
 draft: false
+showComments: true
 tags:
     - sharepoint
     - distrubuted cache
@@ -63,3 +64,4 @@ Coba restart service `AppFabric Caching Service`, trus coba restart servernya ju
 
 Setelah restart server, coba cek lagi status distributed cache service instancenya, ternyata masih online.
 Cek log filenya juga masih banyak sih sebenarnya lognya, cuma yang terkait Distributed Cache udah gak sesering sebelumnya.
+Kalau temen-temen pernah ngalamin ini dan punya solusi yang lebih baik, tolong kasih komentar yah. Terima kasih.

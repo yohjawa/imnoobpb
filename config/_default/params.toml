@@ -77,6 +77,12 @@ fingerprintAlgorithm = "sha256"
   # event = ""
   # script = ""
 
+[showComments]
+  enabled = true
+  host ="https://comments.imnoob.net"
+  site = "comments.imnoob.net"
+  locale = "en"
+
 #[umamiAnalytics]
 #  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 #  region = "eu"  # can be either "eu" or "us"
