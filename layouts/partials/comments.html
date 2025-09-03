@@ -8,8 +8,13 @@
     var remark_config = {
         host: '{{ .host }}',
         site_id: '{{ .site }}',
-        components: ['embed'],
+        components: ['embed','counter','last-comments'],
         url: '{{ $.Permalink }}',
+        theme: 'dark',
+        max_shown_comments: 100,
+        show_email_subscription: true,
+	    simple_view: false,
+        no_footer: true,
     };
 
     !function(e, n) {
