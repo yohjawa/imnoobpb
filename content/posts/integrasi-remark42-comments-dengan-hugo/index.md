@@ -165,7 +165,7 @@ Kebetulan theme yang saya pake sudah ada parameter `showComments` jadi saya ting
   {{- with .Site.Params.showComments -}}
   <hr>
   <p>
-      <b>Your comments are welcome!</b><br>
+      <b>Tinggalin komentar yah :smiley:</b><br>
   </p>
   <div id="remark42"></div>
   <script>
