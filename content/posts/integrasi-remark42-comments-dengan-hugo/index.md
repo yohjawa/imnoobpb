@@ -197,6 +197,12 @@ Kebetulan theme yang saya pake sudah ada parameter `showComments` jadi saya ting
   ```toml
   showComments: true # ganti dengan false kalau gak mau munculin bagian komentar di postingan
   ```
-- 
+
+---------
+
+## Penutup
+
+Udah deh selesai, tinggalin komentar kalau ada yang perlu dikoreksi atau barangkali ada yang mau ditanyain yah.
+Terima kasih kaka bos {{< icon lightbulb >}}
 
 
