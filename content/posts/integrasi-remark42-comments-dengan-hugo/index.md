@@ -202,7 +202,6 @@ Kebetulan theme yang saya pake sudah ada parameter `showComments` jadi saya ting
 
 ## Penutup
 
-Udah deh selesai, tinggalin komentar kalau ada yang perlu dikoreksi atau barangkali ada yang mau ditanyain yah.
-Terima kasih kaka bos {{< icon lightbulb >}}
+Udah deh selesai, kolom komentar di postingan ini tuh pake Remark42 ini, tinggalin komentar kalau ada yang perlu dikoreksi atau barangkali ada yang mau ditanyain yah. Terima kasih kaka bos {{< icon lightbulb >}}
 
 
