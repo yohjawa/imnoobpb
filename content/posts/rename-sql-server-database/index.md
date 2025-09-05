@@ -1,20 +1,20 @@
 ---
 title: Rename SQL Server Database
 date: 2025-09-05T10:17:06+08:00
-draft: false
-categories: "sql server"
-showAuthor: true
-showDate: true
-showTableOfContents: true
-cascade:
-  showEdit: false
-  showSummary: true
-slug: rename-sql-server-database
+thumbnail: img/placeholder.png
+tags:
+  - sql server
+  - database
+  - rename
+  - sysadmin
+categories:
+  - "SQL Server"
+slug: "rename-sql-server-database"
 ---
 
 ----------
 Saya diminta buat restore database production ke server development dengan nama database baru pake tanggal hari kemarin. Tapi pas restore databasenya, saya salah ketik nama tanggalnya jadi bukannya pake tanggal kemarin `namadb_04092025` malah kebalik bulan sama tanggalnya jadi saya bikin nama databasenya jadi `namadb_09042025`.
-
+<!--more-->
 Bisa aja sih connection string di aplikasinya disesuaikan dengan nama database yang saya buat ini, cuma biar lebih memudahkan tracking, developernya minta buat direname aja nama databasenya pake nama yang sesuai dengan permintaan.
 
 ## Rename databasenya pake sp_renamedb
@@ -110,4 +110,4 @@ Nama databasenya berubah jadi sesuai dengan permintaan, tapi logical name sama p
 --------
 
 ## Penutup
-Udah selesai proses rename databasenya. Simple aja kan. tinggalin komentar kalau ada yang mau ditanyain yah. Terima kasih :wave:
+Udah selesai proses rename databasenya. Simple aja kan. tinggalin komentar kalau ada yang mau ditanyain yah. Terima kasih!

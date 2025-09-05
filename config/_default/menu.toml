@@ -1,0 +1,9 @@
+[[main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 9
+  
+[[main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 10

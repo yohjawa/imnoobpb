@@ -1,30 +1,96 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/getting-started/
-
-baseURL = "/"
-relativeUrl = "true"
-canonifyUrls = "true"
-defaultContentLanguage = "en"
-theme = "congo"
-
-enableRobotsTXT = true
-summaryLength = 0
+baseURL = '/'
+languageCode = 'en-us'
+title = "ImNoob"
+theme = "mainroad"
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 5
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[Author] # Used in authorbox
+  name = "ImNoob"
+  bio = "ImNoob's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/dark-logo.png"
 
-[privacy]
-  [privacy.vimeo]
-    enableDNT = true
-  [privacy.x]
-    enableDNT = true
-  [privacy.youTube]
-    privacyEnhanced = true
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 9
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
 
-[services]
-  [services.x]
-    disableInlineCSS = true
+[Params]
+  description = "ImNoob's Personal blog about everything"
+  dateFormat = "02 January 2006"
+  opengraph = true
+  twitter_cards = false
+  readmore = true 
+  showAuthor = true
+  showComments = true
+  pager = true
+  post_meta = ["date", "categories"]
+  mainSections = ["posts", "docs","categories"]
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.Author]
+  name = "ImNoob"
+  bio = "ImNoob's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/avatar.png"
+  links = [
+     { email = "mailto:me@imnoob.net" },
+     { link = "https://blog.imnoob.net/" },
+     { linkedin = "https://linkedin.com/in/yohjawa" },
+     { whatsapp = "https://wa.me/6285186817719" },
+     { x-twitter = "https://twitter.com/yohjawa" },
+  ]
+
+[Params.logo]
+  subtitle = "Proudly clueless, constantly learning!"
+
+[Params.style.vars]
+  highlightColor = "#e22d30"
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.thumbnail]
+  visibility = ["list", "post"]
+  
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = true # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "yohjawa"
+  instagram = "yohjawa"
+  linkedin = "yohjawa"
+  telegram = "imnoob"
+  github = "yohja"
+  email = "me@imnoob.net"
+
+[Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+
+[Params.remark42]
+  enabled = true
+  host ="https://comments.imnoob.net"
+  site = "comments.imnoob.net"
+  locale = "en"

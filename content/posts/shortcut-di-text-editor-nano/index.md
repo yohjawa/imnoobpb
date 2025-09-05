@@ -1,14 +1,12 @@
 ---
 title: Shortcut-Shortcut di text editor Nano
-date: 2020-04-04T16:36:06+08:00
-draft: false
-categories: ngasal
-showAuthor: true
-showDate: true
-showTableOfContents: true
-cascade:
-  showEdit: false
-  showSummary: true
+date: 2025-04-04T16:36:06+08:00
+thumbnail: img/placeholder.png
+tags:
+  - nano
+  - text editor
+categories:
+  - Ngasal
 slug: shortcut-shortcut-di-text-editor-nano
 ---
 
@@ -18,7 +16,7 @@ Nano ini apaan sih?
 Yang saya maksud Nano disini itu salah satu text editor yang biasanya ada di system operasi linux.
 Kayak notepad di windows lah cuma dia ini yah layarnya hitem putih hampir semuanya dikontrol pake keyboard aja, gak pake mouse lah intinya.
 Nano ini juga yang saya pake buat nulis tulisan ini, trus ada beberapa shortcut di sini yang biasa saya pake :
-
+<!--more-->
 1. CTRL + G : Ini buat nampilin petunjuk-petunjuk gimana pake nanonya.
 2. CTRL + X : Pake ini kalau mau keluar dari nano
 3. CTRL + O : Pencet tombol ini kalau mau simpen tulisan yang dibikin

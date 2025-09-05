@@ -1,13 +1,13 @@
 ---
-description: "short introduction"
-layout: "simple"
-cascade:
-  showEdit: false
-  showSummary: true
+title: Home
+sidebar: true
+menu:
+  main:
+    weight: 1
 ---
 ----------
 
-:alarm_clock: **Pembaruan Terakhir** : {{< lastmod >}}
+**Pembaruan Terakhir** : {{< lastmod >}}
 
 
 {{< lead >}}
@@ -28,4 +28,6 @@ Lagi belajar macam-macam mulai dari teknologi, investasi, kesehatan. Saya pengen
 
 ----------
 
-Terima kasih sudah mampir! :wave:
+Terima kasih sudah mampir!
+
+----------

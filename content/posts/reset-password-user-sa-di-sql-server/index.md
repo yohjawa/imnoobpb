@@ -1,26 +1,27 @@
 ---
 title: Reset password user sa di SQL Server
-date: 2020-04-22T09:21:09+08:00
-draft: false
-categories: "sql server"
-showAuthor: true
-showDate: true
-showTableOfContents: true
-cascade:
-  showEdit: false
-  showSummary: true
+date: 2025-04-22T09:21:09+08:00
+thumbnail: img/placeholder.png
+tags:
+  - sql server
+  - password
+  - sa
+  - sysadmin
+categories:
+  - "SQL Server"
 slug: "reset-password-user-sa-di-sql-server"
 ---
 
 ----------
 
 Masih pagi-pagi udah ditelpon sama temen, katanya dia gak bisa login ke sql servernya karna passwordnya salah dan dia udah gak inget lagi mana password yang bener. Udah coba macam-macam password yang dia inget tapi gak ada satupun yang bisa. Remote ke server trus connect pake Windows Authentication, bisa sih tapi usernya gak punya role `sysadmin1, dia lupa dulu waktu install itu user mana yang dijadiin sysadmin.
-
+<!--more-->
 Untungnya user yang dia pake buat remote ke server itu punya privilege local admin di windows servernya. Ya udah langsung aja cuss buat reset password user 'sa' sekalian grant user AD nya biar punya `sysadmin` role di sql server
 
 ### Stop dulu service SQL Server instancenya
 1. Jalanin aplikasi SQL Server Configuration Manager
 2. Pilih SQL Server Services
+
    ![SSCM Service](sscm-services.png)
 3. Klik kanan di nama service untuk sql server instancenya trus klik stop
    ![SSCM Stop Service](sscm-stop-service.png)
@@ -28,11 +29,12 @@ Untungnya user yang dia pake buat remote ke server itu punya privilege local adm
 ### Start SQL Server - single user mode
 Untuk jalanin SQL server Instancenya di single user mode ada dua cara
 **Pertama dari SQL Server Configuration Manager**
-2. Klik kanan nama service --> Properties
-3. Pindah ke tab Startup Parameters trus di bagian Specify a startup parameter, ketik -m trus kik Add
+1. Klik kanan nama service --> Properties
+2. Pindah ke tab Startup Parameters trus di bagian Specify a startup parameter, ketik -m trus kik Add
+
    ![Startup Paremeters](startup-parammeters.png)
-4. Setelah masuk startup parameternya klik OK
-5. Klik kanan nama servicenya trus start
+3. Setelah masuk startup parameternya klik OK
+4. Klik kanan nama servicenya trus start
 
 **Cara kedua dari command prompt atau PowerShell**
 1. Jalanin command prompt as Administrator

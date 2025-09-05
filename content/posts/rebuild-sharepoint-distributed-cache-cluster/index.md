@@ -1,23 +1,23 @@
 ---
 title: Rebuild SharePoint Distributed Cache Cluster
-description: ""
 date: 2025-09-01T06:43:05.842Z
-preview: ""
-draft: false
-showComments: true
+thumbnail: img/placeholder.png
 tags:
-    - sharepoint
-    - distrubuted cache
+  - sharepoint
+  - distrubuted cache
+  - cache cluster
 categories:
-    - SharePoint
+  - SharePoint
 slug: rebuild-sharepoint-distributed-cache-cluster
 ---
+
+--------------
 
 Habis ngepatch sharepoint beberapa waktu yang lalu pas ada zero day vulnerability, trus kirain semua udah normal. Ternyata dapat alert disk drive di sharepoint full, gak biasanya.
 
 Pas ngecek ternyata kebanyakan isinya itu log file, satu file ukurannya bisa hampir 1GB, pas ngecek isinya, banyak banget error terkait Distributed Cache. Salah satu contohnya :
-
-```
+<!--more-->
+```bash
 Unexpected Exception in SPDistributedCachePointerWrapper::InitializeDataCacheFactory for usage 'DistributedLogonTokenCache' 
 - Exception 'Microsoft.ApplicationServer.Caching.DataCacheException: ErrorCode<ERRCA0017>:SubStatus<ES0006>:
 There is a temporary failure. Please retry later. 

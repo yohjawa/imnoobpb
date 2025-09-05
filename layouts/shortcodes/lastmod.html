@@ -1,5 +1,6 @@
-{{- with .Page.Lastmod -}}
-    {{- .Format "January 2, 2006" -}}
+{{- /* layouts/shortcodes/lastmod.html */ -}}
+{{- if .Page.Params.lastmod -}}
+    {{- .Page.Params.lastmod.Format "02 January 2006" -}}
 {{- else -}}
-    {{- .Page.Date.Format "January 2, 2006" -}}
+    {{- .Page.Date.Format "02 January 2006" -}}
 {{- end -}}
