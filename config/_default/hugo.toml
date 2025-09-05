@@ -3,28 +3,10 @@ languageCode = 'en-us'
 title = "ImNoob"
 theme = "mainroad"
 
-[[head.link]]
-  rel = "icon"
-  type = "img/png"
-  href = "img/nooblogo.png"
-  sizes = "32x32"
-
-[[head.link]]
-  rel = "icon"
-  type = "image/png"
-  href = "img/nooblogo.png"
-  sizes = "16x16"
-
-[[head.link]]
-  rel = "apple-touch-icon"
-  sizes = "180x180"
-  href = "img/nooblogo.png"
-
 [pagination]
   pagerSize = 5
 
 [Params]
-  favicon = "img/nooblogo.png"
   description = "ImNoob's Personal blog about everything"
   dateFormat = "02 January 2006"
   opengraph = true
@@ -42,17 +24,13 @@ theme = "mainroad"
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
 
+[params]
+favicon = "img/nooblogo.png"
+
 [Params.Author]
   name = "ImNoob"
   bio = "ImNoob's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
   avatar = "img/avatar.png"
-  links = [
-     { email = "mailto:me@imnoob.net" },
-     { link = "https://blog.imnoob.net/" },
-     { linkedin = "https://linkedin.com/in/yohjawa" },
-     { whatsapp = "https://wa.me/6285186817719" },
-     { x-twitter = "https://twitter.com/yohjawa" },
-  ]
 
 [Params.logo]
   subtitle = "Proudly clueless, constantly learning!"
