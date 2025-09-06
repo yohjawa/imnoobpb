@@ -1,7 +1,7 @@
 ---
 title: Akses jaringan rumah pake cloudflare tunnel
 date: 2025-03-22T04:54:06+08:00
-thumbnail: img/placeholder.png
+thumbnail: /posts/akses-jaringan-rumah-pake-cloudflare-tunnel/thumbnail.png
 tags:
   - cloudflare
   - tunnel
