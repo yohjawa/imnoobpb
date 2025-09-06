@@ -1,7 +1,7 @@
 ---
 title: Update perjalanan investasi ETF SPY
 date: 2025-09-06T11:12:32+08:00
-thumbnail: img/placeholder.png
+thumbnail: "/investing/etf-spy/thumbnail.png"
 showComments: false
 tags:
     - investasi
@@ -10,7 +10,7 @@ tags:
     - spy
 categories:
     - Investasi
-slug: update-perjalanan-investasi-etf-spy
+slug: etf-spy
 ---
 
 ----------
