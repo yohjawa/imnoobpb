@@ -5,7 +5,7 @@ date: 2018-04-16
 showAuthor: false
 showComments: true
 categories:
-  - "Development"
+  - "Hugo"
 tags:
   - "HTML"
   - "CSS"

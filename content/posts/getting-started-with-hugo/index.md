@@ -10,8 +10,7 @@ tags:
   - "hugo"
   - "development"
 categories:
-  - "Development"
-  - "golang"
+  - "Hugo"
 ---
 
 ## Step 1. Install Hugo

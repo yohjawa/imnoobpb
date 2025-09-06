@@ -11,8 +11,7 @@ tags:
   - "themes"
   - "development"
 categories:
-  - "Development"
-  - "golang"
+  - "Hugo"
 ---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
