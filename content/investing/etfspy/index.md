@@ -15,7 +15,9 @@ slug: etf-spy
 
 ----------
 
-Disini saya mau update perjalanan investasi ETF SPY saya, rencananya mau rutin tambahin 100 USD tiap bulan. Tapi kalau pas ada lebih, bisa ditambahin lagi. Intinya yang rutin itu pasti 100 USD. Baru mulai bulan lalu
+Disini saya mau update perjalanan investasi ETF SPY saya, rencananya mau rutin tambahin 100 USD tiap bulan. Tapi kalau pas ada lebih, bisa ditambahin lagi. Intinya yang rutin itu pasti 100 USD. Baru mulai bulan Agustus 2025. Semoga bisa konsisten sampe 10 atau 15 tahun kedepan. Amin. 
+
+Kalau pengen tau ETF itu apa, atau SPY itu apa, google aja yah :)
 <!--more-->
 | No    | Tanggal Beli | Harga/Lembar | Lembar Saham |
 | :---: | ------------ | -----------: | -----------: |

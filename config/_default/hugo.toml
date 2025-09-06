@@ -58,9 +58,8 @@ favicon = "img/nooblogo.png"
 [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
-  twitter = "yohjawa"
-  instagram = "yohjawa"
-  linkedin = "yohjawa"
+  twitter = "imnoob"
+  instagram = "imnoob"
   telegram = "imnoob"
   github = "yohja"
   email = "me@imnoob.net"
