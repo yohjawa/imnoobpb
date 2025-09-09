@@ -8,6 +8,7 @@ theme = "mainroad"
 
 [Params]
   description = "ImNoob's Personal blog about everything"
+  favicon = "/img/nooblogo.png"
   dateFormat = "02 January 2006"
   opengraph = true
   twitter_cards = true
@@ -29,9 +30,6 @@ theme = "mainroad"
       "js/copy-code.js",
       "js/back-to-top.js"
     ]
-
-[params]
-favicon = "img/nooblogo.png"
 
 [Params.Author]
   name = "ImNoob"
