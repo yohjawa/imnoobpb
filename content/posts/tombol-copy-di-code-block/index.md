@@ -69,7 +69,7 @@ Langsung mulai aja :
      });
      ```
    Gak perlu lah dijelasin arti coddingan ini yah, saya juga gak bisa jelasin, soalnya copy sana-sini hehe.
-2. Lanjut bikin css file untuk styling tombolnya nanti
+2. Lanjut bikin css file di `static/css/copycode.css` untuk styling tombolnya nanti
    ```css
    .code-block-wrapper {
         position: relative;
