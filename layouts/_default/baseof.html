@@ -44,6 +44,10 @@
 	{{- if not $server }}
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}
+
+	{{ $copyCodeCSS := resources.Get "css/copy-code.css" | minify | fingerprint }}
+  	<link rel="stylesheet" href="{{ $copyCodeCSS.Permalink }}" integrity="{{ $copyCodeCSS.Data.Integrity }}">
+
 </head>
 <body class="body">
 	<div class="container container--outer">

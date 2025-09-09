@@ -65,3 +65,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+{{ $copyCodeJS := resources.Get "js/copy-code.js" | minify | fingerprint }}
+<script src="{{ $copyCodeJS.Permalink }}" integrity="{{ $copyCodeJS.Data.Integrity }}"></script>
