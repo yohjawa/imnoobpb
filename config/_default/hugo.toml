@@ -76,3 +76,8 @@ favicon = "img/nooblogo.png"
   host ="https://comments.imnoob.net"
   site = "comments.imnoob.net"
   locale = "en"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
