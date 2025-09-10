@@ -19,9 +19,9 @@ theme = "mainroad"
   post_meta = ["date", "categories"]
   mainSections = ["posts", "investing"]
   mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
   customCSS = [
       "css/copy-code.css",
       "css/back-to-top.css",
@@ -34,7 +34,7 @@ theme = "mainroad"
 
 [Params.Author]
   name = "ImNoob"
-  bio = "ImNoob's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  bio = "Professional [Google](https://google.com) copy-paster, out here failing at tech so you don't have to. You're welcome."
   avatar = "img/avatar.png"
 
 [Params.logo]
