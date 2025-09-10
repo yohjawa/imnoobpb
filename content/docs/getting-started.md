@@ -6,7 +6,8 @@ lead: This article helps you get started with the Mainroad theme, including inst
 date: 2022-01-24T14:00:00.000Z
 tags:
   - "Installation"
-authorbox: false
+showAuthor: false
+showComments: false
 sidebar: false
 pager: false
 menu:

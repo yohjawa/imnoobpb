@@ -9,7 +9,8 @@ thumbnail:
   src: "img/placeholder.png"
   visibility:
     - list
-authorbox: false
+showAuthor: false
+showComments: false
 sidebar: false
 pager: false
 menu:
