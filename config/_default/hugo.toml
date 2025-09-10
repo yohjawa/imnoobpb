@@ -24,7 +24,8 @@ theme = "mainroad"
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = [
       "css/copy-code.css",
-      "css/back-to-top.css"
+      "css/back-to-top.css",
+      "css/nested-menu.css"
     ]
   customJS = [
       "js/copy-code.js",
