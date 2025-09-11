@@ -17,6 +17,7 @@ Saya kan pake theme [Mainroad](https://github.com/Vimux/Mainroad/) di blog ini. 
 
 Jadi nya saya mau tambahin aja satu tombol biar sekali klik aja langsung balik ke paling atas
 Langkah-langkahnya di bawah :
+<!--more-->
 1. Buat dulu satu javascript file di `static/js/back-to-top.js`. Isi filenya :
     ```javascript
     document.addEventListener('DOMContentLoaded', function() {

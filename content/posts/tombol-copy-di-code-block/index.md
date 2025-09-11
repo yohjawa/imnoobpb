@@ -16,7 +16,7 @@ slug: tombol-copy-di-code-block
 Tulisan-tulisan di sini kan beberapa di antaranya saya sertakan potongan code. Tapi block code bawaan theme ini, atau mungkin dari hugonya, hanya nampilin block codenya aja, kalau mau copy mesti di block lagi codenya baru copy.
 
 Jadinya kepikiran buat tambahin tombol kecil di code block nya biar sekali di klik itu langsung copy codenya ke clipboard trus tinggal paste kemana saja sesuka hati. Modal google sama [Deepseek](https://chat.deepseek.com/) akhirnya bisa tambahin tombol copy code kayak yang ada di postingan ini
-
+<!--more-->
 Langsung mulai aja :
 1. Bikin file javascript di `static/js/copycode.js` isinya ada dua bagian :
    - Fungsi atau metode untuk copynya :
