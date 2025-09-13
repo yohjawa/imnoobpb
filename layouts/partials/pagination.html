@@ -1,0 +1,54 @@
+{{- if gt .Paginator.TotalPages 1 }}
+<div class="pagination">
+    {{- $current := .Paginator.PageNumber }}
+    {{- $total := .Paginator.TotalPages }}
+    {{- $delta := 2 }} {{/* Number of pages to show on each side of current page */}}
+    {{- $ellipsis := "…" }}
+    {{- $paginator := .Paginator }}
+    
+    {{/* Previous button */}}
+    {{- if .Paginator.HasPrev }}
+    <a class="pagination__item pagination__item--prev btn" href="{{ .Paginator.Prev.URL }}">«</a>
+    {{- else }}
+    <span class="pagination__item pagination__item--disabled">«</span>
+    {{- end }}
+    
+    {{/* First page */}}
+    {{- if gt $current (add $delta 2) }}
+    <a class="pagination__item pagination__item--link btn" href="{{ $paginator.First.URL }}">1</a>
+    {{- if gt $current (add $delta 3) }}
+    <span class="pagination__item pagination__item--ellipsis">{{ $ellipsis }}</span>
+    {{- end }}
+    {{- end }}
+    
+    {{/* Page numbers around current page */}}
+    {{- range $page := seq (math.Max 1 (sub $current $delta)) (math.Min $total (add $current $delta)) }}
+        {{- if eq $page $current }}
+        <span class="pagination__item pagination__item--current">{{ $page }}</span>
+        {{- else }}
+            {{- $url := "" }}
+            {{- if eq $page 1 }}
+                {{- $url = $paginator.First.URL }}
+            {{- else }}
+                {{- $url = (index $paginator.Pagers (sub $page 1)).URL }}
+            {{- end }}
+        <a class="pagination__item pagination__item--link btn" href="{{ $url }}">{{ $page }}</a>
+        {{- end }}
+    {{- end }}
+    
+    {{/* Last page */}}
+    {{- if lt $current (sub $total $delta 1) }}
+    {{- if lt $current (sub $total $delta 2) }}
+    <span class="pagination__item pagination__item--ellipsis">{{ $ellipsis }}</span>
+    {{- end }}
+    <a class="pagination__item pagination__item--link btn" href="{{ $paginator.Last.URL }}">{{ $total }}</a>
+    {{- end }}
+    
+    {{/* Next button */}}
+    {{- if .Paginator.HasNext }}
+    <a class="pagination__item pagination__item--next btn" href="{{ .Paginator.Next.URL }}">»</a>
+    {{- else }}
+    <span class="pagination__item pagination__item--disabled">»</span>
+    {{- end }}
+</div>
+{{- end }}

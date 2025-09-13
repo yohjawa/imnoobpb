@@ -25,7 +25,8 @@ theme = "mainroad"
   customCSS = [
       "css/copy-code.css",
       "css/back-to-top.css",
-      "css/nested-menu.css"
+      "css/nested-menu.css",
+      "css/pagination.css"
     ]
   customJS = [
       "js/copy-code.js",
